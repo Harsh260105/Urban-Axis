@@ -29,14 +29,11 @@ Urban Axis introduces an efficient, secure, and user-friendly platform for real 
 - **Authentication:** JWT, Cookies  
 - **Media Storage:** Cloudinary  
 - **Real-Time Chat:** Socket.io
-  
-<!--
-## Developed By:
+
+## Developers
 - [Hemax Patel](https://github.com/hemaxpatel)
 - [Harsh Patel](https://github.com/Harsh260105)
 - [Het Patel](https://github.com/hetpatel203)
-*/
--->
 
 ## Installation & Setup
 1. Clone the repository:
