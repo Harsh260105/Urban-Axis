@@ -1,7 +1,7 @@
 # Urban Axis - Real Estate Platform
 
-![Home Page](https://github.com/user-attachments/assets/43aab0a2-d375-4bbe-a21d-52865b0be8b9)
-![Sign Up](https://github.com/user-attachments/assets/81cc8568-50f0-47ee-9698-f1fea111aab1)
+![Home Page](https://github.com/user-attachments/assets/7619fc0e-cc67-4660-bd99-2d2853ee6247)
+![Sign Up](https://github.com/user-attachments/assets/8a09c735-ea97-4881-8cc6-b9bd7d6d6b6e)
 
 ## Project Overview
 Urban Axis is a modern real estate platform designed to streamline the process of buying, selling, and renting properties. It provides an intuitive interface for users to explore property listings, connect with sellers, and engage in real-time conversations with agents.
