@@ -1,0 +1,84 @@
+.profilePage {
+  display: flex;
+  height: 100%;
+}
+@media (max-width: 1024px) {
+  .profilePage {
+    flex-direction: column;
+    overflow: scroll;
+  }
+}
+.profilePage .details {
+  flex: 3;
+  overflow-y: scroll;
+  padding-bottom: 50px;
+}
+@media (max-width: 1024px) {
+  .profilePage .details {
+    flex: none;
+    height: -moz-max-content;
+    height: max-content;
+  }
+}
+.profilePage .details .wrapper {
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.profilePage .details .wrapper .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profilePage .details .wrapper .title h1 {
+  font-weight: 300;
+}
+.profilePage .details .wrapper .title button {
+  padding: 12px 24px;
+  background-color: #fece51;
+  cursor: pointer;
+  border: none;
+}
+.profilePage .details .wrapper .info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profilePage .details .wrapper .info span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profilePage .details .wrapper .info button {
+  width: 100px;
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.profilePage .details .wrapper .info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.profilePage .chatContainer {
+  flex: 2;
+  background-color: #fcf5f3;
+  height: 100%;
+}
+@media (max-width: 1024px) {
+  .profilePage .chatContainer {
+    flex: none;
+    height: -moz-max-content;
+    height: max-content;
+  }
+}
+.profilePage .chatContainer .wrapper {
+  padding: 0px 20px;
+  height: 100%;
+}/*# sourceMappingURL=profilePage.css.map */

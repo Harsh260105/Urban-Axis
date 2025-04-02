@@ -21,7 +21,10 @@ function Login() {
     const username = formData.get("username");
     const password = formData.get("password");
 
+    console.log(username, password);
+
     try {
+      
       const res = await apiRequest.post("/auth/login", {
         username,
         password,

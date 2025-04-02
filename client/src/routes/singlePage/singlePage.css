@@ -1,0 +1,207 @@
+.singlePage {
+  display: flex;
+  height: 100%;
+}
+@media (max-width: 1024px) {
+  .singlePage {
+    flex-direction: column;
+    overflow: scroll;
+  }
+}
+.singlePage .details {
+  flex: 3;
+  height: 100%;
+  overflow-y: scroll;
+}
+@media (max-width: 1024px) {
+  .singlePage .details {
+    flex: none;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 50px;
+  }
+}
+.singlePage .details .wrapper {
+  padding-right: 50px;
+}
+@media (max-width: 1366px) {
+  .singlePage .details .wrapper {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .singlePage .details .wrapper {
+    padding-right: 0px;
+  }
+}
+.singlePage .details .wrapper .info {
+  margin-top: 50px;
+}
+.singlePage .details .wrapper .info .top {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 738px) {
+  .singlePage .details .wrapper .info .top {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.singlePage .details .wrapper .info .top .post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.singlePage .details .wrapper .info .top .post h1 {
+  font-weight: 400;
+}
+.singlePage .details .wrapper .info .top .post .address {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #888;
+  font-size: 14px;
+}
+.singlePage .details .wrapper .info .top .post .address img {
+  width: 16px;
+  height: 16px;
+}
+.singlePage .details .wrapper .info .top .post .price {
+  padding: 5px;
+  background-color: rgba(254, 205, 81, 0.438);
+  border-radius: 5px;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 20px;
+  font-weight: 300;
+}
+.singlePage .details .wrapper .info .top .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 50px;
+  border-radius: 10px;
+  background-color: rgba(254, 205, 81, 0.209);
+  font-weight: 600;
+}
+@media (max-width: 738px) {
+  .singlePage .details .wrapper .info .top .user {
+    padding: 20px 50px;
+  }
+}
+.singlePage .details .wrapper .info .top .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.singlePage .details .wrapper .info .bottom {
+  margin-top: 50px;
+  color: #555;
+  line-height: 20px;
+}
+.singlePage .features {
+  flex: 2;
+  background-color: #fcf5f3;
+  height: 100%;
+  overflow-y: scroll;
+}
+@media (max-width: 1024px) {
+  .singlePage .features {
+    flex: none;
+    height: -moz-max-content;
+    height: max-content;
+    margin-bottom: 50px;
+  }
+}
+.singlePage .features .wrapper {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 1024px) {
+  .singlePage .features .wrapper {
+    padding: 20px;
+  }
+}
+.singlePage .features .wrapper img {
+  width: 24px;
+  height: 24px;
+}
+.singlePage .features .wrapper .title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.singlePage .features .wrapper .feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.singlePage .features .wrapper .feature img {
+  background-color: rgba(254, 205, 81, 0.209);
+}
+.singlePage .features .wrapper .feature .featureText span {
+  font-weight: bold;
+}
+.singlePage .features .wrapper .feature .featureText p {
+  font-size: 14px;
+}
+.singlePage .features .wrapper .listVertical {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.singlePage .features .wrapper .listHorizontal {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.singlePage .features .wrapper .sizes {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1366px) {
+  .singlePage .features .wrapper .sizes {
+    font-size: 12px;
+  }
+}
+.singlePage .features .wrapper .sizes .size {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.singlePage .features .wrapper .mapContainer {
+  width: 100%;
+  height: 200px;
+}
+.singlePage .features .wrapper .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.singlePage .features .wrapper .buttons button {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  border: 1px solid #fece51;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.singlePage .features .wrapper .buttons button img {
+  width: 16px;
+  height: 16px;
+}/*# sourceMappingURL=singlePage.css.map */

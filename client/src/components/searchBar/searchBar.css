@@ -1,0 +1,85 @@
+.searchBar .type button {
+  padding: 16px 36px;
+  border: 1px solid #999;
+  border-bottom: none;
+  cursor: pointer;
+  background-color: white;
+  text-transform: capitalize;
+}
+.searchBar .type button.active {
+  background-color: black;
+  color: white;
+}
+.searchBar .type button:first-child {
+  border-top-left-radius: 5px;
+  border-right: none;
+}
+.searchBar .type button:last-child {
+  border-top-right-radius: 5px;
+  border-left: none;
+}
+.searchBar form {
+  border: 1px solid #999;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  gap: 5px;
+}
+@media (max-width: 738px) {
+  .searchBar form {
+    flex-direction: column;
+    border: none;
+  }
+}
+.searchBar form input {
+  border: none;
+  padding: 0px 10px;
+  width: 200px;
+}
+@media (max-width: 1366px) {
+  .searchBar form input {
+    padding: 0px 5px;
+  }
+  .searchBar form input:nth-child(2), .searchBar form input:nth-child(3) {
+    width: 140px;
+  }
+}
+@media (max-width: 1024px) {
+  .searchBar form input {
+    width: 200px;
+  }
+  .searchBar form input:nth-child(2), .searchBar form input:nth-child(3) {
+    width: 200px;
+  }
+}
+@media (max-width: 738px) {
+  .searchBar form input {
+    width: auto;
+    padding: 20px;
+    border: 1px solid #999;
+  }
+  .searchBar form input:nth-child(2), .searchBar form input:nth-child(3) {
+    width: auto;
+  }
+}
+.searchBar form a {
+  flex: 1;
+  background-color: #fece51;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBar form a button {
+  border: none;
+  cursor: pointer;
+  background-color: #fece51;
+}
+@media (max-width: 738px) {
+  .searchBar form a button {
+    padding: 10px;
+  }
+}
+.searchBar form a button img {
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=searchBar.css.map */

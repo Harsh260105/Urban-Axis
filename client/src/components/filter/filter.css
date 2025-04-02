@@ -1,0 +1,45 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.filter h1 {
+  font-weight: 300;
+  font-size: 24px;
+}
+.filter .item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.filter .item label {
+  font-size: 10px;
+}
+.filter .item input,
+.filter .item select {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.filter .top input {
+  width: 100%;
+}
+.filter .bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.filter .bottom button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #fece51;
+}
+.filter .bottom button img {
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=filter.css.map */
