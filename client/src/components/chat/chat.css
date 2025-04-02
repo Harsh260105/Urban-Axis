@@ -1,0 +1,105 @@
+.chat {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.chat .messages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+}
+.chat .messages h1 {
+  font-weight: 300;
+}
+.chat .messages .message {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.chat .messages .message img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.chat .messages .message span {
+  font-weight: bold;
+}
+.chat .chatBox {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chat .chatBox .top {
+  background-color: rgba(247, 193, 75, 0.5215686275);
+  padding: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chat .chatBox .top .user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.chat .chatBox .top .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.chat .chatBox .top .close {
+  cursor: pointer;
+}
+.chat .chatBox .center {
+  height: 350px;
+  overflow: scroll;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.chat .chatBox .center .chatMessage {
+  width: 50%;
+}
+.chat .chatBox .center .chatMessage.own {
+  align-self: flex-end;
+  text-align: right;
+}
+.chat .chatBox .center .chatMessage span {
+  font-size: 12px;
+  background-color: rgba(247, 193, 75, 0.2235294118);
+  padding: 2px;
+  border-radius: 5px;
+}
+.chat .chatBox .bottom {
+  border-top: 2px solid rgba(247, 193, 75, 0.5215686275);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chat .chatBox .bottom textarea {
+  flex: 3;
+  height: 100%;
+  border: none;
+  padding: 20px;
+}
+.chat .chatBox .bottom button {
+  flex: 1;
+  background-color: rgba(247, 193, 75, 0.5215686275);
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=chat.css.map */

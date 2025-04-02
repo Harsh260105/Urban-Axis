@@ -1,0 +1,16 @@
+.popupContainer {
+  display: flex;
+  gap: 20px;
+}
+.popupContainer img {
+  width: 64px;
+  height: 48px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.popupContainer .textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}/*# sourceMappingURL=pin.css.map */

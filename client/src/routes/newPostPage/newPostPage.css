@@ -1,0 +1,64 @@
+.newPostPage {
+  height: 100%;
+  display: flex;
+}
+.newPostPage .formContainer {
+  flex: 3;
+  overflow: scroll;
+}
+.newPostPage .formContainer .wrapper {
+  margin: 30px 50px 100px 0px;
+}
+.newPostPage .formContainer .wrapper form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.newPostPage .formContainer .wrapper form .item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.newPostPage .formContainer .wrapper form .item input {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.newPostPage .formContainer .wrapper form .item select {
+  padding: 19px;
+}
+.newPostPage .formContainer .wrapper form .item.description {
+  width: 100%;
+  height: 320px;
+}
+.newPostPage .formContainer .wrapper form .item.description .quill > .ql-container > .ql-editor {
+  height: 200px;
+  font-size: 16px;
+}
+.newPostPage .formContainer .wrapper form .sendButton {
+  width: 30%;
+  border-radius: 5px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.newPostPage .sideContainer {
+  flex: 2;
+  background-color: #fcf5f3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.newPostPage .sideContainer img {
+  width: 50%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}/*# sourceMappingURL=newPostPage.css.map */
