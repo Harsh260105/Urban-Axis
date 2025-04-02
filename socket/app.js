@@ -3,9 +3,8 @@ import { Server } from "socket.io";
 const io = new Server({
   cors: {
     origin: ["http://localhost:5173", "http://localhost:8800"],
-    methods: ["GET", "POST"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
-    allowedHeaders: ["Content-Type"],
   },
 });
 
