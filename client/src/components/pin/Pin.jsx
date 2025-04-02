@@ -11,7 +11,7 @@ function Pin({ item }) {
           <div className="textContainer">
             <Link to={`/${item.id}`}>{item.title}</Link>
             <span>{item.bedroom} bedroom</span>
-            <b>$ {item.price}</b>
+            <b> {item.price}</b>
           </div>
         </div>
       </Popup>
