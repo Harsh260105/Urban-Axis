@@ -12,7 +12,9 @@
   "dependencies": {
     "axios": "^1.6.7",
     "dompurify": "^3.0.9",
+    "framer-motion": "^12.4.7",
     "leaflet": "^1.9.4",
+    "lucide-react": "^0.477.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",

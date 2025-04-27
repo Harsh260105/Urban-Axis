@@ -48,7 +48,7 @@ function Login() {
             name="username"
             required
             minLength={3}
-            maxLength={20}
+            maxLength={50}
             type="text"
             placeholder="Username"
           />

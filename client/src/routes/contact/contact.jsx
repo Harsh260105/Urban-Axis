@@ -124,7 +124,7 @@ function Contact() {
           <h2>Find Us</h2>
           <div className="map-container">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396.965376403299!2d72.85651441201935!3d22.68399137921146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e5b014354b67d%3A0x8150cf481f5e4785!2sB%2F6%2C%20Old%20Dumral%20Rd%2C%20near%20Sai%20Baba%20Temple%2C%20Nadiad%2C%20Gujarat%20387001!5e0!3m2!1sen!2sin!4v1745734547564!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3781960180236!2d72.81792397512754!3d22.60234817947054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e50c43cdea6c7%3A0x5074fe9e0c1c8bd!2sCharotar%20University%20of%20Science%20and%20Technology%20(CHARUSAT)!5e0!3m2!1sen!2sin!4v1745777699419!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}
