@@ -28,12 +28,12 @@ Urban Axis introduces an efficient, secure, and user-friendly platform for real 
 
 ## Tech Stack
 
-- **Frontend:** React.js, React Router, Context API, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB, Prisma ORM
-- **Authentication:** JWT, Cookies
-- **Media Storage:** Cloudinary
-- **Real-Time Chat:** Socket.io
+- **Frontend:** React.js, React Router, Context API, Tailwind CSS.
+- **Backend:** Node.js, Express.js.
+- **Database:** MongoDB, Prisma ORM.
+- **Authentication:** JWT, Cookies.
+- **Media Storage:** Cloudinary.
+- **Real-Time Chat:** Socket.io.
 
 ## Project Team
 
