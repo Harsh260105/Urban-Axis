@@ -40,10 +40,10 @@ function App() {
           path: "contact",
           element: <Contact />,
         },
-        {
-          path: "agents",
-          element: <Agents />,
-        },
+        // {
+        //   path: "agents",
+        //   element: <Agents />,
+        // },
         {
           path: "login",
           element: <Login />,
