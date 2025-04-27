@@ -34,14 +34,14 @@ function Contact() {
           <div className="contact-info">
             <div className="info-card">
               <h3>Office Location</h3>
-              <p>123 Real Estate Street</p>
-              <p>Miami, FL 33139</p>
-              <p>United States</p>
+              <p>B/6 Purshottamnagar</p>
+              <p>Nadiad-387002,</p>
+              <p>Gujarat, India</p>
             </div>
 
             <div className="info-card">
               <h3>Contact Details</h3>
-              <p>Phone: +1 (555) 123-4567</p>
+              <p>Phone: +91 99999 99999</p>
               <p>Email: info@urbanaxis.com</p>
               <p>Hours: Mon-Fri 9:00 AM - 6:00 PM</p>
             </div>
@@ -124,7 +124,7 @@ function Contact() {
           <h2>Find Us</h2>
           <div className="map-container">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.9024424301397!2d-80.1301234!3d25.7616798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9d6823f5b530f%3A0x8d8611ed8d5f1b!2sMiami%2C%20FL!5e0!3m2!1sen!2sus!4v1647123456789!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396.965376403299!2d72.85651441201935!3d22.68399137921146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e5b014354b67d%3A0x8150cf481f5e4785!2sB%2F6%2C%20Old%20Dumral%20Rd%2C%20near%20Sai%20Baba%20Temple%2C%20Nadiad%2C%20Gujarat%20387001!5e0!3m2!1sen!2sin!4v1745734547564!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}
@@ -140,3 +140,7 @@ function Contact() {
 }
 
 export default Contact;
+
+{
+  /* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396.965376403299!2d72.85651441201935!3d22.68399137921146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e5b014354b67d%3A0x8150cf481f5e4785!2sB%2F6%2C%20Old%20Dumral%20Rd%2C%20near%20Sai%20Baba%20Temple%2C%20Nadiad%2C%20Gujarat%20387001!5e0!3m2!1sen!2sin!4v1745734547564!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */
+}
