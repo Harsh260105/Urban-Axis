@@ -6,8 +6,14 @@ function About() {
     <div className="about">
       <div className="container">
         <div className="header">
-          <h1>About Urban-Axis</h1>
-          <p>Your Trusted Platform for Real Estate Solutions</p>
+          <h1>About</h1>
+          <p>
+            Your Trusted Platform for Real Estate Solutions. Urban Axis is a
+            modern real estate platform designed to streamline the process of
+            buying, selling, and renting properties. It provides an intuitive
+            interface for users to explore property listings, connect with
+            sellers, and engage in real-time conversations with agents.
+          </p>
         </div>
 
         <div className="content">
@@ -60,15 +66,15 @@ function About() {
             <div className="team-grid">
               <div className="team-member">
                 <h3>Harsh Patel</h3>
-                <p>Lead Developer</p>
+                <p>Full Stack Developer</p>
               </div>
               <div className="team-member">
-                <h3>Team Member 2</h3>
-                <p>Frontend Developer</p>
+                <h3>Hemax Patel</h3>
+                <p>Full Stack Developer</p>
               </div>
               <div className="team-member">
-                <h3>Team Member 3</h3>
-                <p>Backend Developer</p>
+                <h3>Het Patel</h3>
+                <p>Full Stack Developer</p>
               </div>
             </div>
           </section>

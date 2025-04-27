@@ -54,7 +54,7 @@ Urban Axis introduces an efficient, secure, and user-friendly platform for real 
    ```
 3. Start the backend server:
    ```sh
-   npm start
+   npm run dev
    ```
 4. Install dependencies for frontend:
    ```sh
