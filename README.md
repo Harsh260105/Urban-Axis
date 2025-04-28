@@ -24,8 +24,7 @@ Urban Axis introduces an efficient, secure, and user-friendly platform for real 
 - **Real-Time Chat** – Buyers, sellers, and agents can communicate instantly via chat.
 - **Map Integration** – View property locations using an interactive map.
 - **Secure Authentication** – Ensuring data security with JWT-based authentication.
-- **Admin Dashboard** – Manage properties, users, and reported listings.
-
+- **AI Chatbot** - Users can ask their queries to chatbot.
 ## Tech Stack
 
 - **Frontend:** React.js, React Router, Context API, Tailwind CSS.
