@@ -1,11 +1,19 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import SearchBar from "../../components/searchBar/SearchBar";
 import "./homePage.scss";
 import { AuthContext } from "../../context/AuthContext";
 
 function HomePage() {
+  const { currentUser } = useContext(AuthContext);
 
-  const {currentUser} = useContext(AuthContext)
+  useEffect(() => {
+    // Disable scroll on mount
+    document.body.style.overflow = "hidden";
+    return () => {
+      // Restore scroll on unmount
+      document.body.style.overflow = "auto";
+    };
+  }, []);
 
   return (
     <div className="homePage">

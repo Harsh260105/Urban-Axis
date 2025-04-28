@@ -4,14 +4,17 @@ import "leaflet/dist/leaflet.css";
 import Pin from "../pin/Pin";
 
 function Map({ items }) {
+  // Default center for India (New Delhi coordinates)
+  const defaultCenter = [28.6139, 77.209];
+
   return (
     <MapContainer
       center={
-        items.length === 1
+        items.length > 0
           ? [items[0].latitude, items[0].longitude]
-          : [52.4797, -1.90269]
+          : defaultCenter
       }
-      zoom={7}
+      zoom={items.length === 1 ? 13 : 8}
       scrollWheelZoom={false}
       className="map"
     >

@@ -1,13 +1,15 @@
 .about {
-  padding: 40px 0;
+  min-height: 100dvh; // instead of 100vh
+  padding: 40px 0 80px; // ADD more bottom padding (80px)
   background-color: #f8f9fa;
 
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    padding-bottom: 340px; // ADD bottom padding in container too
   }
-
+  
   .header {
     text-align: center;
     margin-bottom: 60px;
@@ -104,6 +106,7 @@
     }
 
     .contact {
+      margin-bottom: 40px;
       text-align: center;
       background: white;
       padding: 40px;
@@ -151,4 +154,4 @@
       }
     }
   }
-} 
+}

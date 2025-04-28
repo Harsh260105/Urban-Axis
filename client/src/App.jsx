@@ -16,6 +16,7 @@ import {
   profilePageLoader,
   singlePageLoader,
 } from "./lib/loaders";
+import ChatboxWidget from "./components/chatbox/ChatboxWidget.jsx";
 
 function App() {
   const router = createBrowserRouter([
@@ -80,7 +81,12 @@ function App() {
     },
   ]);
 
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <RouterProvider router={router} />
+      <ChatboxWidget />
+    </>
+  );
 }
 
 export default App;
