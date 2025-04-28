@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./contact.scss";
+import emailjs from "emailjs-com";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -9,10 +10,27 @@ function Contact() {
     message: "",
   });
 
+  const [status, setStatus] = useState("");
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("Form submitted:", formData);
+    setStatus("");
+    emailjs
+      .send(
+        "service_b2ssq6x", 
+        "template_ef9kb2c", 
+        formData,
+        "DCh4KPH2oGKruFoE9" 
+      )
+      .then(
+        (result) => {
+          setStatus("Message sent successfully!");
+          setFormData({ name: "", email: "", subject: "", message: "" });
+        },
+        (error) => {
+          setStatus("Failed to send message. Please try again later.");
+        }
+      );
   };
 
   const handleChange = (e) => {
@@ -116,6 +134,7 @@ function Contact() {
               </div>
 
               <button type="submit">Send Message</button>
+              {status && <p className="form-status">{status}</p>}
             </form>
           </div>
         </div>
